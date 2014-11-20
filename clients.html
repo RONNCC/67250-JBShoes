@@ -1,0 +1,181 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JB Shoes</title>
+    <meta name="description" content="Website for the magical shoe company JB Shoes for 67250 @ CMU" />
+    <meta name="author" content="Shomiron Ghose" />
+    <meta name="copyright" content="Shomiron Ghose (c) 2014" />
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
+
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+    <link rel="stylesheet" href="css/clients.css" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAj6L4KHjYuHuaOwgXB6q3JBj2uF3IfxQ">
+    </script>
+    <script type="text/javascript">
+        var map;
+
+        function initialize() {
+            var mapOptions = {
+                center: {
+                    lat: 45.3082909,
+                    lng: -71.7837164
+                },
+                zoom: 8
+            };
+            map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+
+
+        }
+    </script>
+    <style type="text/css">
+        html,
+        body,
+        #map-canvas {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="row large-row">
+        <div class="large-12 large-centered columns">
+
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+
+                    <li class="name">
+                        <h1>
+                            R B
+                        </h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon">
+                        <a href="#"><span>menu</span></a>
+                    </li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li>
+                            <a><i style="color:white" class="fa fa-search"></i></a>
+                        </li>
+                        <li><a href="">Log In</a>
+                        </li>
+                    </ul>
+
+                </section>
+            </nav>
+        </div>
+    </div>
+
+
+    <section id="what-clients-say">
+        <div id="goto_testimonial"></div>
+        <div class="row">
+            <div class="wrapper">
+                <h2 class="le-section-title">Our Clients</h2>
+                <h4 class="le-section-subtitle">We love feedback!</h4>
+                <div id="clients-slider" class="wow fadeInUp owl-carousel owl-theme animated" style="display: block">
+                    <div class="owl-wrapper-outer">
+                        <div class="row">
+                            <div class="small-4  columns" style="">
+                                <div class="item">
+                                    <a class="client-image">
+                                        <img src="http://i.imgur.com/nmoOQXL.jpg" alt="AuracoolOnline" class="round">
+                                    </a>
+                                    <h2 class="client-name uppercase oswald">Jack Smith</h2>
+                                    <h3 class="client-position uppercase">CEO &amp; Founder</h3>
+                                    <p class="client-desc">They very good
+                                </div>
+                            </div>
+                            <div class="small-4 columns" style="">
+                                <div class="item">
+                                    <a class="client-image">
+                                        <img src="http://creativitykills.co/content/uploads/2014/07/DJ-Neptune-24032014-133x133.jpg" alt="Deejay Neptune" class="round">
+                                    </a>
+                                    <h2 class="client-name uppercase oswald">Dinosaur Bill</h2>
+                                    <h3 class="client-position uppercase">Entertainer</h3>
+                                    <p class="client-desc">Such wow</p>
+                                </div>
+                            </div>
+                            <div class="small-4 columns" style="">
+                                <div class="item">
+                                    <a class="client-image">
+                                        <img src="http://creativitykills.co/content/uploads/2014/07/6ix-133x133.jpg" alt="Yung6ix" class="round">
+                                    </a>
+                                    <h2 class="client-name uppercase oswald">Michael Johnson</h2>
+                                    <h3 class="client-position uppercase">Entertainer</h3>
+                                    <p class="client-desc">They make very good shoes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="owl-controls clickable" style="display: none;">
+                        <div class="owl-pagination">
+                            <div class="owl-page active"><span class=""></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="row">
+        <div class="small-12 columns">
+            <hr>
+            <div class="row">
+                <div class="small-4 columns">
+                     <p>© The <i>Enterprise</i></p>
+                </div>
+                <div class="small-4 columns">
+                    <ul class="inline-list right">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.write('<script src=js/' +
+            ('__proto__' in {} ? 'zepto.min' : 'jquery') +
+            '.js><\/script>')
+    </script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+
+
+</body>
+
+</html>

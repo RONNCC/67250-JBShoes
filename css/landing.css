@@ -1,0 +1,48 @@
+body {
+    background: url("http://www.designbolts.com/wp-content/uploads/2013/02/Nasty-Fabric-Grey-Seamless-Patterns-For-Website-Background.jpg");
+}
+.name * {
+    font-family: "Playfair";
+    font-size: 1.5rem;
+    background:white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Helvetica Neue", "Myriad Set Pro", Helvetica, Roboto, Arial, sans-serif;
+}
+.top-bar .name h1 {
+    font-family: LouisVuitton-N-Demi;
+    margin-right: .5em;
+    margin-left: .5em;
+    font-size: 2em;
+    color: red;
+}
+.top-bar {
+    background: #000000;
+}
+.slick-next:before,
+.slick-prev:before {
+    color: #cad3d0;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #000000;
+}
+.large-row {
+    max-width: none;
+}
+.large-img {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.no-margins {
+    margins: 0;
+}
+.no-padding {
+    padding: 0;
+}

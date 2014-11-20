@@ -1,0 +1,11 @@
+body {color:black;}
+
+.owl-wrapper-outer > div > div > *
+{
+
+    text-align:center;
+}
+.wrapper {
+    padding:20px;
+    background:#f0f0f0;
+}

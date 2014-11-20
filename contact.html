@@ -1,0 +1,202 @@
+<!doctype html>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" data-useragent="Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JB Shoes</title>
+    <meta name="description" content="Website for the magical shoe company JB Shoes for 67250 @ CMU" />
+    <meta name="author" content="Shomiron Ghose" />
+    <meta name="copyright" content="Shomiron Ghose (c) 2014" />
+
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+
+
+
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="js/vendor/modernizr.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDAj6L4KHjYuHuaOwgXB6q3JBj2uF3IfxQ">
+    </script>
+    <script type="text/javascript">
+        var map;
+        function initialize() {
+            var mapOptions = {
+                center: {
+                    lat:45.3082909, lng:-71.7837164
+                    },
+                zoom: 8
+            };
+         map = new google.maps.Map(document.getElementById('map-canvas'),
+                mapOptions);
+
+
+        }
+
+    </script>
+    <style type="text/css">
+        html,
+        body,
+        #map-canvas {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="row large-row">
+        <div class="large-12 large-centered columns">
+
+            <nav class="top-bar" data-topbar>
+                <ul class="title-area">
+
+                    <li class="name">
+                        <h1>
+                            R B
+                        </h1>
+                    </li>
+                    <li class="toggle-topbar menu-icon">
+                        <a href="#"><span>menu</span></a>
+                    </li>
+                </ul>
+                <section class="top-bar-section">
+                    <ul class="right">
+                        <li>
+                            <a><i style="color:white" class="fa fa-search"></i></a>
+                        </li>
+                        <li><a href="">Log In</a>
+                        </li>
+                    </ul>
+
+                </section>
+            </nav>
+        </div>
+    </div>
+
+
+    <section id="contact-form">
+        <div class="row">
+            <div class="small-12 columns">
+                <h2 class="le-section-title">Contact Us</h2>
+                <h4 class="le-section-subtitle">Drop us a line!</h4>
+            </div>
+        </div>
+
+        <div class="small-6 large-centered columns">
+            <div id="map-canvas" data-loaded="no" class="map-bg hide-for-mobile"></div>
+        </div>
+
+
+
+        <div class="wrapper">
+            <div class="contact-row">
+                <div class="contact-details-wrapper">
+                    <ul>
+                        <li class="wow bounceInLeft animated" data-delay="0.1s" style="visibility: visible; -webkit-animation: bounceInLeft;">
+                            <div class="le-image">
+                                <div class="image"><i class="fa fa-envelope icon-location round"></i>
+                                </div>
+                            </div>
+                            <div class="le-details">
+                                <h4>Registered Address</h4>
+                                <span class="address">5000 Forbes Avenue, Augusta Maine 03909 </span>
+                                <span id="show-map" class="show-map" data-text="Hide Directions">Show Location</span>
+                            </div>
+                        </li>
+                        <li class="wow bounceInLeft animated" data-delay="0.1s" style="visibility: visible; -webkit-animation: bounceInLeft;">
+                            <div class="le-image">
+                                <div class="image"><i class="round icon-location fa fa-home"></i>
+                                </div>
+                            </div>
+                            <div class="le-details">
+                                <h4>Contact Methods</h4>
+                                <span class="email"><span id=""><a href="mailto:hi@creativitykills.co">hi@rb.com</a></span>
+                                <script type="text/javascript">
+                                    /*<![CDATA[*/
+                                    eval("var a=\"dXg_F6Ebm5AzwIco8B3OLiMYCxNaZqfHhnsKt.WS+eV49l@GTkv2upR7JPy1-QUDr0j\";var b=a.split(\"\").sort().join(\"\");var c=\"TkI4yle-kUk-02kuu1g47\";var d=\"\";for(var e=0;e<c.length;e++)d+=b.charAt(a.indexOf(c.charAt(e)));document.getElementById(\"e669234339\").innerHTML=\"<a href=\\\"mailto:\"+d+\"\\\">\"+d+\"</a>\"") /*]]>*/
+                                </script>
+                                </span>
+                                <span class="phone">
+                                                                            <a href="tel:07000070000">+1 234 567 8910</a>                                  </span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form-wrapper wow bounceInRight animated" data-delay="0.1s" style="visibility: visible; -webkit-animation: bounceInRight;">
+                    <div class="process-message" data-default-message="Bummer! Your message was not sent. If this continues, use our direct email address."></div>
+                    <form action="" name="contact-ck" autocomplete="on" id="contact-ck"  data-abide="ajax" data-action="" >
+                        <input type="text" name="first_name" class="small-12 le-boogey" id="first-name">
+                        <input type="text" spellcheck="false" name="full_name" id="full-name" class="small-12 le-full-name" placeholder="Full Name" autocomplete="off" maxlength="40" required="">
+                        <input type="email" spellcheck="false" name="email" id="email-address" class="small-12 le-email" placeholder="Email Address" autocomplete="off" maxlength="100" required="">
+                        <textarea name="message" id="contact-message" maxlength="5000" placeholder="Message" class="small-12 le-message" required=""></textarea>
+                        <input type="submit" data-sending-text="Sending..." value="Submit" class="small-12 submit-btn">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="row">
+        <div class="small-12 columns">
+            <hr>
+            <div class="row">
+                <div class="small-4 columns">
+                    <p>© The <i>Enterprise</i></p>
+                </div>
+                <div class="small-4 columns">
+                    <ul class="inline-list right">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 3</a>
+                        </li>
+                        <li>
+                            <a href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.write('<script src=js/' +
+            ('__proto__' in {} ? 'zepto.min' : 'jquery') +
+            '.js><\/script>')
+    </script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script>
+        $("#show-map").click(function () {
+            console.log('potato');
+            $("#map-canvas").css("display", "block");
+
+            google.maps.event.trigger(map,'checkResize');
+            google.maps.event.trigger(map, "resize");
+
+            $(this).remove();
+        });
+                            google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>
+
+</body>
+
+</html>
